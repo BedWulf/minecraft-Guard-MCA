@@ -1,0 +1,41 @@
+{
+	"entity.guard.ambient": {
+		"sounds": [
+			"mob/villager/idle1",
+			"mob/villager/idle2",
+			"mob/villager/idle3"
+		],
+		"subtitle": "subtitles.entity.guard.ambient"
+	},
+	"entity.guard.hurt": {
+		"sounds": [
+			"mob/villager/hit1",
+			"mob/villager/hit2",
+			"mob/villager/hit3",
+			"mob/villager/hit4"
+		],
+		"subtitle": "subtitles.entity.guard.hurt"
+	},
+	"entity.guard.death": {
+		"sounds": [
+			"mob/villager/death"
+		],
+		"subtitle": "subtitles.entity.guard.death"
+	},
+	"entity.guard.yes": {
+		"sounds": [
+			"mob/villager/yes1",
+			"mob/villager/yes2",
+			"mob/villager/yes3"
+		],
+		"subtitle": "subtitles.entity.guard.yes"
+	},
+	"entity.guard.no": {
+		"sounds": [
+			"mob/villager/no1",
+			"mob/villager/no2",
+			"mob/villager/no3"
+		],
+		"subtitle": "subtitles.entity.guard.no"
+	}
+}

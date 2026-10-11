@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "tallestegg/guardvillagers/mixins/DefendVillageGoalGolemMixin": {
+      "Lnet/minecraft/world/level/Level;getNearbyPlayers(Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;": "Lnet/minecraft/world/level/Level;m_45955_(Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;",
+      "canUse": "Lnet/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal;m_8036_()Z"
+    },
+    "tallestegg/guardvillagers/mixins/VillagerGoalPackagesMixin": {
+      "getIdlePackage": "Lnet/minecraft/world/entity/ai/behavior/VillagerGoalPackages;m_24598_(Lnet/minecraft/world/entity/npc/VillagerProfession;F)Lcom/google/common/collect/ImmutableList;",
+      "getMeetPackage": "Lnet/minecraft/world/entity/ai/behavior/VillagerGoalPackages;m_24595_(Lnet/minecraft/world/entity/npc/VillagerProfession;F)Lcom/google/common/collect/ImmutableList;"
+    }
+  },
+  "data": {
+    "searge": {
+      "tallestegg/guardvillagers/mixins/DefendVillageGoalGolemMixin": {
+        "Lnet/minecraft/world/level/Level;getNearbyPlayers(Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;": "Lnet/minecraft/world/level/Level;m_45955_(Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;",
+        "canUse": "Lnet/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal;m_8036_()Z"
+      },
+      "tallestegg/guardvillagers/mixins/VillagerGoalPackagesMixin": {
+        "getIdlePackage": "Lnet/minecraft/world/entity/ai/behavior/VillagerGoalPackages;m_24598_(Lnet/minecraft/world/entity/npc/VillagerProfession;F)Lcom/google/common/collect/ImmutableList;",
+        "getMeetPackage": "Lnet/minecraft/world/entity/ai/behavior/VillagerGoalPackages;m_24595_(Lnet/minecraft/world/entity/npc/VillagerProfession;F)Lcom/google/common/collect/ImmutableList;"
+      }
+    }
+  }
+}
