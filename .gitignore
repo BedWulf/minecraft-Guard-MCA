@@ -1,2 +1,9 @@
-.analysis/
-mods-for-analysis/
+.gradle/
+build/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.DS_Store
+Thumbs.db

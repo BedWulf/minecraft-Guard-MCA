@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/BedWulf/minecraft-Guard-MCA/issues"
+
+[[mods]]
+modId="mcaguardappearance"
+version="${file.jarVersion}"
+displayName="MCA Guard Appearance"
+authors="BedWulf"
+description='''
+Client-side mod replacing the Guard Villagers renderer with a human (nose-free) model styled after MCA Reborn.
+'''
+
+[[dependencies.mcaguardappearance]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.mcaguardappearance]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="CLIENT"
+
+# Load AFTER Guard Villagers so our RegisterRenderers handler runs last and wins.
+[[dependencies.mcaguardappearance]]
+    modId="guardvillagers"
+    mandatory=true
+    versionRange="[1.6.10,)"
+    ordering="AFTER"
+    side="CLIENT"

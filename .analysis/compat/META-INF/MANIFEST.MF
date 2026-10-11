@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: mcamobcompat
+Specification-Vendor: otectus
+Specification-Version: 1
+Implementation-Title: mcamobcompat
+Implementation-Version: 0.2.1+1.20.1
+Implementation-Vendor: otectus
+
